@@ -285,7 +285,7 @@ img {
   margin: 5px 0;
 }
 
-/*
+
 @media only screen and (min-width: 768px) {
   .intro {
     padding: 4em 3em;
@@ -300,40 +300,35 @@ img {
   }
 
   .intro__text .composer {
-    font-family: 'Noto Sans', sans-serif;
-    color: #CAC0C0;
     text-shadow: 2px 2px 3px red;
   }
 
   .nav {
-    text-align: center;
+    text-align: justify;
     padding: 50px 0;
+
   }
 
   .row {
-    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .nav__links ul {
+    display: flex;
   }
 
   .nav__links li {
-    list-style: none;
-    margin: 10px 0;
+    margin: 0px 30px;
 
   }
 
-  .nav__links a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Noto Sans', sans-serif;
-    color: #111;
-
-  }
 
   .hero {
-    background-image: url(./Images/hero.jpg);
+    background-image: url(./Images/heropc.jpg);
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 94vh;
+    height: 100vh;
 
   }
 
@@ -341,150 +336,76 @@ img {
   .hero__text {
     padding: 300px 0;
     color: #fff;
+    width: 50%;
 
-  }
-
-  .bg {
-    background-color: rgba(0, 0, 0, .6);
   }
 
   .hero__text h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
-    padding-bottom: .8em;
-  }
 
-  .hero__text span {
-    font-size: 1.3rem;
-  }
+    font-size: 3rem;
+    padding-bottom: .5em;
 
-  .hero__text p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
-    padding-bottom: .6em;
-    text-align: justify;
-    width: 95%;
-    margin: auto;
   }
 
   .hero__text a {
-    display: inline-block;
-    text-decoration: none;
-    margin-left: .5em;
-    color: #fff;
-    background-color: #000;
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin-bottom: 1em;
-    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
   }
 
   .banner {
     margin-bottom: 15px;
-    position: relative;
+
   }
 
   .banner h1 {
-    font-family: 'Raleway', sans-serif;
+
     font-size: 2rem;
-    padding: .4em 0;
-    text-align: center;
+
   }
 
   .banner p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
-    padding-bottom: .6em;
-    text-align: justify;
-    width: 95%;
-    margin: auto;
+
+    text-align: left;
+    width: 100%;
+
+
   }
 
   .banner .number {
-    position: absolute;
-    top: 0;
-    left: 11.5em;
-    color: #000;
-    font-size: 2rem;
+    display: none;
   }
 
-  .banner a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    margin-left: .5em;
-    color: #000;
-    letter-spacing: 5px;
+
+
+  .banner img {
+    width: 80%;
   }
 
   .banner .genres {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px 0;
-    color: #858585;
-  }
+    text-align: justify;
 
-  .discography {
-    text-align: center;
-  }
 
-  .discography .discography__info {
-    font-size: 3rem;
-    font-family: 'Raleway', sans-serif;
-    padding: .4em 0;
-    color: #868686;
-    text-shadow: 2px 2px 3px #000;
-  }
-
-  .discography p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
-    padding-bottom: .6em;
-    text-align: center;
-    width: 95%;
-    margin: auto;
   }
 
   .discography img {
-    width: 90%;
+    width: 95%;
   }
 
   .discography h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.8rem;
-    letter-spacing: 3px;
-    color: silver;
-    text-shadow: 2px 2px 3px #000;
-  }
-
-  .discography h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
-    padding-bottom: .6em;
-
+    font-size: 1.5rem;
   }
 
   .discography a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: .5em .8em;
-    border: 3px solid #111;
-    color: silver;
-    margin-bottom: .5em;
+    border-radius: 5px;
+    margin-bottom: 1em;
   }
 
   .news {
-    background-image: url(./Images/main.jpg);
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+
   }
 
   .box {
-    padding: 180px 0;
+    padding: 300px 180px;
 
   }
 
@@ -506,44 +427,26 @@ img {
   }
 
   .video {
-    background-image: url(./Images/city.jpg);
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    height: 100vh;
+
   }
 
   .video__text {
-    padding: 200px 0;
+    padding: 400px 0;
 
   }
 
   .video__text h1 {
-    font-size: 3rem;
-    color: #fff;
-    text-shadow: 2px 2px 3px #000;
-    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+
   }
 
   .video__text p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
-    color: #fff;
-    text-shadow: 2px 2px 3px #000;
+    font-size: 1.3rem;
+
 
   }
 
-  .video__text a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    text-shadow: 2px 2px 3px #000;
-    background-color: #111;
-    padding: .8em 1.3em;
-    border-radius: 5px;
-    margin: 5px 0;
-  }
+
 }
-
-*/
