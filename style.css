@@ -450,3 +450,178 @@ img {
 
 
 }
+
+
+@media only screen and (min-width: 1000px) {
+  .intro {
+    padding: 5em 3em;
+
+
+  }
+
+  .intro__text h1 {
+    padding: 15px 0;
+    font-size: 5rem;
+
+  }
+
+
+  .intro__text .composer {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #fff;
+  }
+
+  .nav {
+    padding: 100px 0;
+
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+  }
+
+  .nav__links ul {
+    display: flex;
+  }
+
+  .nav__links li {
+    margin: 0px 60px;
+
+  }
+
+
+  .hero {
+    background-image: url(./Images/heropc.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+  }
+
+
+  .hero__text {
+    padding: 300px 0;
+    color: #fff;
+    width: 50%;
+
+  }
+
+  .hero__text h1 {
+
+    font-size: 3rem;
+    padding-bottom: .5em;
+
+  }
+
+  .hero__text a {
+    letter-spacing: 3px;
+  }
+
+  .banner {
+    margin: auto;
+    width: 30%;
+    padding: 100px 0;
+  }
+
+  .banner h1 {
+
+    font-size: 3rem;
+
+  }
+
+  .banner p {
+
+    text-align: left;
+
+
+
+  }
+
+  .banner .number {
+    top: 20%;
+    display: block;
+  }
+
+
+
+  .banner img {
+    width: 100%;
+
+  }
+
+  .banner .genres {
+    text-align: left;
+
+
+  }
+
+  .discography {
+    padding-bottom: 100px;
+  }
+
+  .discography img {
+    width: 95%;
+  }
+
+  .discography h1 {
+    font-size: 2.2rem;
+  }
+
+  .discography a {
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+
+  .news {
+    height: 100vh;
+    margin-bottom: 100px;
+    
+  }
+
+  .box {
+    padding: 300px 180px;
+
+  }
+
+  .news .news__text h1 {
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .date {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  .video {
+
+    height: 100vh;
+
+  }
+
+  .video__text {
+    padding: 400px 0;
+
+  }
+
+  .video__text h1 {
+    font-size: 5rem;
+
+  }
+
+  .video__text p {
+    font-size: 1.3rem;
+
+
+  }
